@@ -1,3 +1,5 @@
+// node callbacks/less-bullshit-synchronous-example.js
+
 // fs is a Node.js module, here we are loading it in so we have access to its functions
 var fs = require('fs');
 // let's create a new timestamp string for use later
