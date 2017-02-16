@@ -10,10 +10,8 @@ loadImage("http://i.imgur.com/D46tNX8.gif",
   }
 );
 
-
 function loadImage(url, success, error) {
   var img = new Image();
-
   img.src = url;
 
   img.onload = function () {
@@ -41,7 +39,7 @@ promise.catch(function (e) {
 
 // More typical promises syntax involves chaning method calls
 
-loadImage("/Users/mlg/Downloads/bloop.gif").then(function (img) {
+loadImage("http://i.giphy.com/4LgA7gSThPVVS.gif").then(function (img) {
   document.body.appendChild(img);
 }).catch(function (e) {
   console.log("Error occurred in time-space continuum, bloop cat is unavailable.");
